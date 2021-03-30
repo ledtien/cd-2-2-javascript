@@ -45,8 +45,8 @@ function mouseOnPage () {
 function loveOrNot () {
     lovesMe++;
     if (lovesMe % 2) {
-    document.getElementById('change-he-loves-me').innerHTML = "She loves me";}
-        else {document.getElementById('change-he-loves-me').innerHTML = "She loves me not";}
+    document.getElementById('change-he-loves-me').innerHTML = "She hates me";}
+        else {document.getElementById('change-he-loves-me').innerHTML = "She hates me not!";}
     
 }
 document.getElementById('change-he-loves-me').addEventListener('click', loveOrNot);
